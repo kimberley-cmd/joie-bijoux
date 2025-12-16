@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(250, 249, 231);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(228, 215, 32);
+}
+.produto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: none;
+}
+.icon {
+   text-align: right;
+   padding: 10px;
+   margin-top: -5cm;
+   cursor: pointer;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.item{
+    background-color:rgb(228, 215, 32);
+    margin: 10px;
+    color: black;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 380px;
+    height: 380px;
+}
+.pesquisa{
+   flex-wrap: wrap;
+   align-content: center;
+   width: 60%;
+   height: 50px;
+   background-color: #fff;
+   border: none;
+   border-radius: 40px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: 600;
+   
+}
